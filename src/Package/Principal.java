@@ -137,7 +137,9 @@ public class Principal {
         n = lector.nextInt();
 
         if (n > 0){
-            System.out.println("Correct");
+            for(int i = 1;i <=10;i++){
+                System.out.println(n+" plus "+i+" is equal to: "+n*i);
+            }
         }else {
             System.out.println("The number is wrong");
         }
