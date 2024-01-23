@@ -79,9 +79,10 @@ public class Principal {
         //}
 //PUNTO 7
  //Programa para determinar el número mayor entre dos números:
-     // int number1 = 10, number2 =20;
-     // int larger = (number1 > number2) ? number1 : number2;
-        //System.out.println("The larger number is:" + larger);
+//    int number1 = 10, number2 =20;
+//    int larger = (number1 > number2) ? number1 : number2;
+//       System.out.println("The larger number is:" + larger);
+
  //Programa para verificar si un número es par o impar:
         //int num = 7;
         //String result = (num % 2 == 0) ? "even" : "odd";
@@ -122,15 +123,63 @@ public class Principal {
         //}else{
            // System.out.println("The student failed");
         //}
- //Punto 10: Haga 3 ejemplos prácticos del uso de 3 ciclos en java.
 
-    //int i = 1;
+ //Punto 9 ¿Cómo funciona la sentencia “The switch Statement”? de 3 ejemplos.
 
-    //while (i<=10){
-    //    System.out.println(i);
-    //    i++;
-    //}
-    //    Scanner lector = new Scanner(in);
+//        int dia = 3;
+//        switch (dia) {
+//            case 1:
+//                System.out.println("Lunes");
+//                break;
+//            case 2:
+//                System.out.println("Martes");
+//                break;
+//            case 3:
+//                System.out.println("Miércoles");
+//                break;
+//
+//            default:
+//                System.out.println("Otro día");
+ //       }
+
+//        String fruta = "Manzana";
+//        switch (fruta) {
+//            case "Manzana":
+//                System.out.println("Es una manzana");
+//                break;
+//            case "Naranja":
+//                System.out.println("Es una naranja");
+//                break;
+//            // puedes agregar más casos aquí
+//            default:
+//                System.out.println("No es ni una manzana ni una naranja");
+//        }
+
+//        int numero = 2;
+//        switch (numero) {
+//            case 1:
+//                System.out.println("Uno");
+//            case 2:
+//                System.out.println("Dos");
+//            case 3:
+//                System.out.println("Tres");
+//            default:
+//                System.out.println("Número mayor que tres");
+//        }
+
+
+
+
+
+        //Punto 10: Haga 3 ejemplos prácticos del uso de 3 ciclos en java.
+
+//    int i = 1;
+//
+//    while (i<=10){
+//      System.out.println(i);
+//     i++;
+//    }
+//    Scanner lector = new Scanner(in);
     //    int n;
 //
     //    System.out.println("Insert a positive number");
