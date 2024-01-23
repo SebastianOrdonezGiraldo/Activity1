@@ -130,17 +130,23 @@ public class Principal {
     //    System.out.println(i);
     //    i++;
     //}
-        Scanner lector = new Scanner(in);
-        int n;
+    //    Scanner lector = new Scanner(in);
+    //    int n;
+//
+    //    System.out.println("Insert a positive number");
+    //    n = lector.nextInt();
+//
+    //    if (n > 0){
+    //        System.out.println("Correct");
+    //    }else {
+    //        System.out.println("The number is wrong");
+    //    }
+ //Punto 11    De un ejemplo de “The foreach Statement”.
+         String[] cars = {"BMW m3", "Veloster", "GTI"};
 
-        System.out.println("Insert a positive number");
-        n = lector.nextInt();
-
-        if (n > 0){
-            System.out.println("Correct");
-        }else {
-            System.out.println("The number is wrong");
-        }
+         for (String car : cars){
+             System.out.println(car);
+         }
     }
     }
 
