@@ -1,6 +1,6 @@
 package Package;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -142,11 +142,27 @@ public class Principal {
     //        System.out.println("The number is wrong");
     //    }
  //Punto 11    De un ejemplo de “The foreach Statement”.
-         String[] cars = {"BMW m3", "Veloster", "GTI"};
+//         String[] cars = {"BMW m3", "Veloster", "GTI"};
+//
+//         for (String car : cars){
+//             System.out.println(car);
+//         }
+ //Punto 12  ¿Qué hace la sentencia break y continue en un ciclo?, de ejemplo.
 
-         for (String car : cars){
-             System.out.println(car);
-         }
+//       for (int i = 0; i < 10; i++) {
+//           if (i == 5) {
+//               break;
+//           }
+//           System.out.println(i);
+//       }
+//       for (int i = 0; i < 10; i++) {
+//           if (i == 5) {
+//               continue;
+//           }
+//           System.out.println(i);
+//       }
+
+
     }
     }
 
