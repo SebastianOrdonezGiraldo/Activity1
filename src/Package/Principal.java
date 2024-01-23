@@ -3,6 +3,8 @@ package Package;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
+import static java.lang.System.in;
+
 public class Principal {
     public static void main(String[] args) {
       //  byte entero = 1;//
@@ -120,7 +122,25 @@ public class Principal {
         //}else{
            // System.out.println("The student failed");
         //}
+ //Punto 10: Haga 3 ejemplos prácticos del uso de 3 ciclos en java.
 
+    //int i = 1;
+
+    //while (i<=10){
+    //    System.out.println(i);
+    //    i++;
+    //}
+        Scanner lector = new Scanner(in);
+        int n;
+
+        System.out.println("Insert a positive number");
+        n = lector.nextInt();
+
+        if (n > 0){
+            System.out.println("Correct");
+        }else {
+            System.out.println("The number is wrong");
+        }
     }
     }
 
