@@ -1,6 +1,5 @@
 package Package;
 
-import java.awt.*;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -131,42 +130,17 @@ public class Principal {
     //    System.out.println(i);
     //    i++;
     //}
-    //    Scanner lector = new Scanner(in);
-    //    int n;
-//
-    //    System.out.println("Insert a positive number");
-    //    n = lector.nextInt();
-//
-    //    if (n > 0){
-    //        for(int i = 1;i <=10;i++){
-    //            System.out.println(n+" plus "+i+" is equal to: "+n*i);
-    //        }
-    //    }else {
-    //        System.out.println("The number is wrong");
-    //    }
-    //    int num1 = 0, num2 = 1, num3;
-    //    int count = 10;
-    //    int i = 1;
-    //    System.out.println("Fibonacci series up to " + count + " terms:");
-    //    System.out.println(num1);
-    //    do {
-    //        num3 = num1 + num2;
-    //        System.out.println(num3);
-    //        num1 = num2;
-    //        num2 = num3;
-    //        i++;
-    //    } while (i < count);
+        Scanner lector = new Scanner(in);
+        int n;
 
-//Punto 11 De un ejemplo de “The foreach Statement”.
+        System.out.println("Insert a positive number");
+        n = lector.nextInt();
 
-//       String[] cars ={"BMW M2", "Veloster N", "GTI"};
-
-//       for (String car : cars){
-//           System.out.println(car);
-//       }
-
-//Punto 12
+        if (n > 0){
+            System.out.println("Correct");
+        }else {
+            System.out.println("The number is wrong");
+        }
     }
     }
-
 
